@@ -6,7 +6,7 @@
 .header {
   min-height: 120vh;
   width: 100%;
-  background-image: url(bali.jpg);
+  background-image: url(sofa-wooden-table-living-room-interior-with-plant-concrete-wall-3d-rendering\ \(1\).jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -51,6 +51,10 @@ nav {
   font-size: 13px;
 }
 
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .text-box {
   width: 90%;
   color: #fff;
@@ -67,7 +71,7 @@ nav {
 
 .text-box p {
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 18px;
   color: #fff
 }
 
@@ -77,10 +81,9 @@ nav {
   color: #fff;
   border: 1px solid #fff;
   padding: 12px 34px;
-  font-size: 13px;
-  background: transparent;
+  font-size: 15px;
+  background: grey;
   position: relative;
-  cursor: pointer;
 }
 
 .why {
@@ -97,7 +100,7 @@ h1 {
 
 p {
   color: #333;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
@@ -113,7 +116,7 @@ p {
 .call {
   margin: 100px auto;
   width: 100%;
-  background-image: url(call.jpeg);
+  background-image: url(back.webp);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -175,7 +178,7 @@ p {
 .contact-box {
   background: #fff;
   display: flex;
-  background-image: url("leaf.jpg");
+  background-image: url("half.webp");
   background-color: #cccccc;
   background-size: cover;
   border-radius: 10px;
@@ -210,7 +213,7 @@ h1 {
 
 .input-row .input-group {
   flex-basis: 45%;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 40px;
   padding: 0;
 }
@@ -228,7 +231,7 @@ textarea {
 }
 
 .topnav {
-  background-color: #333;
+  background-color: rgb(102, 99, 99);
   overflow: hidden;
 }
 
@@ -250,11 +253,20 @@ textarea {
 
 
 .topnav a.active {
-  background-color: #1862da;
+  background-color: #474646;
   color: white;
 }
 
 .info {
   font-size: 50px;
   color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
