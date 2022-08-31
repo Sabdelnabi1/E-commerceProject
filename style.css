@@ -6,7 +6,7 @@
 .header {
   min-height: 120vh;
   width: 100%;
-  background-image: url(sofa-wooden-table-living-room-interior-with-plant-concrete-wall-3d-rendering\ \(1\).jpg);
+  background-image: url(beige.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -46,18 +46,29 @@ nav {
 }
 
 .nav-links ul li a {
-  color: #fff;
+  color: #36454F;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lora', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .text-box {
   width: 90%;
-  color: #fff;
+  color: #36454F;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -72,17 +83,17 @@ body {
 .text-box p {
   margin: 10px 0 40px;
   font-size: 18px;
-  color: #fff
+  color: #36454F
 }
 
 .hero-btn {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
+  color: rgb(236, 236, 213);
+
   padding: 12px 34px;
   font-size: 15px;
-  background: grey;
+  background: #36454F;
   position: relative;
 }
 
@@ -99,7 +110,7 @@ h1 {
 }
 
 p {
-  color: #333;
+  color: #36454F;
   font-size: 20px;
   font-weight: 300;
   line-height: 22px;
@@ -176,10 +187,10 @@ p {
 }
 
 .contact-box {
-  background: #fff;
+  background: rgb(236, 236, 213);
   display: flex;
-  background-image: url("half.webp");
-  background-color: #cccccc;
+  background-image: url(mini.jpeg);
+  background-color: rgba(206, 212, 212, 255);
   background-size: cover;
   border-radius: 10px;
 }
@@ -198,6 +209,7 @@ p {
 
 h1 {
   margin-bottom: 10px;
+  color: #36454F
 }
 
 .container p {
@@ -213,7 +225,7 @@ h1 {
 
 .input-row .input-group {
   flex-basis: 45%;
-  color: rgb(0, 0, 0);
+  color: rgb(236, 236, 213);
   margin-bottom: 40px;
   padding: 0;
 }
@@ -224,37 +236,37 @@ input {
 
 textarea {
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(236, 236, 213);
   outline: none;
   padding: 10px;
   box-sizing: border-box;
 }
 
 .topnav {
-  background-color: rgb(102, 99, 99);
+  background-color: #36454F;
   overflow: hidden;
 }
 
 
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  color: rgb(236, 236, 213);
   text-align: center;
-  padding: 14px 16px;
+
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
+  padding: 8px 12px;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
 }
 
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+
 
 
 .topnav a.active {
-  background-color: #474646;
-  color: white;
+  background-color: #36454F;
+  color: rgb(236, 236, 213);
 }
 
 .info {
